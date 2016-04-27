@@ -1,12 +1,12 @@
-n = 5
+n = 10
 
 i = []
 count = 1
 
 while len(i) <n:
-	if count%2 == 0:
-		count+=1
-	else:
+	if count%2 != 0:
 		i.append(count)
 		count+=1
+	count+=1
+
 print i
